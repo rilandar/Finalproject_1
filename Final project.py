@@ -39,7 +39,7 @@ df = pd.DataFrame(data)
 
 #generate a graph/define x/yaxis, title, and bar color
 plt.figure(figsize=(8,5))
-plt.bar(df['Name'],df['Income'],color='blue')
+plt.bar(df['Name'],df['Income'],color='red')
 plt.title('Income Comparison')
 plt.xlabel('Name')
 plt.ylabel('Income($)')
